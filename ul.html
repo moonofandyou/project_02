@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>2022龙年大吉</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		p{
+			width: 200px;
+			margin: 100px auto;
+		}
+		label{
+			display: inline-block;
+			background: url("checkbox.png")	 no-repeat;
+			background-size: 20%;
+			padding-left: 25px;
+			background-position: 0px 5px;
+			border: 1px solid #666;
+			border-radius: 3px;
+			padding: 5px 5px 5px 30px;
+		}
+		#agree{
+			display: none;
+		}
+		#agree:checked+label{
+			background-image: url("checkbox (1).png");
+			background-size: 20%;
+			background-position: 0 5px;
+			border-color: green;
+		}
+	</style>
+</head>
+<body>
+	<p>
+		<input type="checkbox" id="agree"/>
+		<label for="agree">同意此协议</label>
+	</p>
+</body> 
+</html>
